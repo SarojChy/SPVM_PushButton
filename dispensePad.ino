@@ -37,5 +37,5 @@ void dispensePad2() {
   delay(2000);
   displayMsg("   Thank You!");
   delay(2000);
-  displayMsg("Tap Your Card");
+  displayMsg("Press the Button");
 }

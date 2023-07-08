@@ -34,6 +34,8 @@ int userCheckInMinute;
 
 void setup()
 {
+    digitalWrite(motorEN1, HIGH);
+  digitalWrite(motorEN2, HIGH);
   Buzzer();
   lcd.init();
   lcd.backlight();
@@ -49,8 +51,7 @@ void setup()
   pinMode(dirPin2, OUTPUT);
   pinMode(motorEN2, OUTPUT);
 
-  digitalWrite(motorEN1, HIGH);
-  digitalWrite(motorEN2, HIGH);
+
 
   pinMode(Resetpin, INPUT_PULLUP);
   pinMode(Inputpin, INPUT_PULLUP);
